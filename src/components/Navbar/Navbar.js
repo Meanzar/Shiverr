@@ -10,7 +10,7 @@ export default function Navbar() {
           <img src={logo} alt='logo shiver' style={{width:'230px'}}/>
         </Link>
         <Link to='/'>
-          <h1>Film</h1>
+          <h1>Films</h1>
         </Link>
         <Link to='/create'>
           <h1>Add</h1>
