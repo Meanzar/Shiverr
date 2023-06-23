@@ -18,7 +18,7 @@ export default function FilmDetails({film, category}) {
         <Popup open={open} closeOnDocumentClick onClose={closeModal} position='center center' className='popup-container'>
             <div className='film-zoom'>
                 <p className='film-title'>{film.title}</p>
-                <img src={film.imageUrl} alt='affiche du film' width={'300px'} height={'220px'}/>
+                <img src={film.imageUrl} alt='affiche du film' width={'310px'} height={'240px'}/>
                 <div className='film-text'>
                     <div className='zoom-details'>
                         <p className='film-category'>Genre:<br/> {film.category}</p>

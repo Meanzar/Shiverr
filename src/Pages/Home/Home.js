@@ -64,7 +64,7 @@ export default function HomePage() {
          </div>
 
         )}
-        {films && films.filter((film) => film.category === 'Paranormal').length > 0 && (
+        {films && films.filter((film) => film.category === 'paranormal').length > 0 && (
         <div>
             <FilmCategorie title='Paranormal' categorie="paranormal" />
             <Swiper 
@@ -83,7 +83,7 @@ export default function HomePage() {
          </div>
 
         )}
-        {films && films.filter((film) => film.category === 'Slasher').length > 0 && (
+        {films && films.filter((film) => film.category === 'slasher').length > 0 && (
         <div>
             <FilmCategorie title='Slasher' categorie="slasher" />
             <Swiper 
